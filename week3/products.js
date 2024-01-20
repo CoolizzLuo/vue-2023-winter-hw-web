@@ -7,9 +7,7 @@ createApp({
   setup() {
     const products = ref([]);
     const isCreate = ref(false);
-    const tempProduct = ref({
-      imagesUrl: [],
-    });
+    const tempProduct = ref({ imagesUrl: [] });
 
     const openModal = (action, item) => {
       if (action === 'create') {
